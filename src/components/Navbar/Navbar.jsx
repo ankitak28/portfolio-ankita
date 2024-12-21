@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -21,7 +22,10 @@ const Navbar = () => {
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
-        <ul className={styles.menuItems}>
+        <ul
+          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          onClick={() => setMenuOpen(false)}
+        >
           <li>
             <a href="#about">About</a>
           </li>
@@ -39,5 +43,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;
