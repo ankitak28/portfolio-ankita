@@ -19,7 +19,6 @@ const ProjectCard = ({project: {imageSrc, title, description, demo, source, skil
                             }
                         </ul>
                         <div className={styles.links}>
-                            <a href={demo} className={styles.link}>Demo</a>
                             <a href={source} className={styles.link}>Source</a>
                         </div>
 

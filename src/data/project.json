@@ -1,26 +1,23 @@
 [
     {
-      "title": "Project A",
+      "title": "TextUtils",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "This project was created to learn React and provides functionality for performing various text manipulation operations on user input.",
+      "skills": ["React"],
+      "source": "https://github.com/ankitak28/TextUtils"
     },
     {
-      "title": "Project B",
+      "title": "NewsApp",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "This project is built with React to integrate a News API, enabling the app to fetch data from an external source and display it dynamically.",
       "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/ankitak28/NewsApp"
     },
     {
-      "title": "Project C",
+      "title": "Employee Management System",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "Employee Management System is a web application designed to manage employees and their associated departments. It implements CRUD operations with Spring Boot on the backend, while the frontend is built using React.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }
   ]

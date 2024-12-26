@@ -12,14 +12,7 @@ const About = () => {
                 <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon"/>
                 <div >
                     <h3>Full-Stack Developer</h3>
-                    <p>I'm a full-stack developer in building responsive and optimized sites</p>
-                </div>
-            </li>
-            <li className={styles.aboutItem}>
-                <img src={getImageUrl("about/serverIcon.png")} alt="Server icon"/>
-                <div >
-                    <h3>Backend Developer</h3>
-                    <p>I have experience building fast and optimized backend and APIs</p>
+                    <p>I'm a full-stack developer in building responsive sites using Springboot and React</p>
                 </div>
             </li>
             <li className={styles.aboutItem}>

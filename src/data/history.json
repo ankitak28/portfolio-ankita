@@ -1,29 +1,19 @@
 [
     {
       "role": "Software Engineer",
-      "organisation": "Google",
-      "startDate": "Sept, 2022",
+      "organisation": "Amdocs",
+      "startDate": "May, 2021",
       "endDate": "Present",
-      "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png"
+      "experiences": ["Worked for ATT on the front side application to create and manage service requests"],
+      "imageSrc": "history/amdocs.png"
     },
     {
-      "role": "UI Designer",
-      "organisation": "Mirosoft",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/microsoft.png"
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Netflix",
-      "startDate": "Apr, 2020",
-      "endDate": "Jun, 2020",
+      "role": "Android Developer Intern",
+      "organisation": "Sensen Networks",
+      "startDate": "August, 2019",
+      "endDate": "July, 2020",
       "experiences": [
-        "Worked on component library",
-        "Helped create UI components"
-      ],
-      "imageSrc": "history/netflix.png"
+        "worked on Camera application used to track number plates and objects"],
+      "imageSrc": "history/sensen.png"
     }
   ]
