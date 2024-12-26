@@ -12,20 +12,24 @@ const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email Icon" />
-          <a href="mailto:ankitak28@gmail.com">ankitak28@gmail.com</a>
+          <a href="mailto:ankitak28@gmail.com" target="_blank">
+            ankitak28@gmail.com
+          </a>
         </li>
         <li className={styles.link}>
           <img
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn Icon"
           />
-          <a href="https://www.linkedin.com/in/ankita-kumari/">
-            linkedin.com/in/ankita-kumari/
+          <a href="https://www.linkedin.com/in/ankita-kumari" target="_blank">
+            linkedin.com/in/ankita-kumari
           </a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github Icon" />
-          <a href="https://github.com/ankitak28/">github.com/ankitak28/</a>
+          <a href="https://github.com/ankitak28" target="_blank">
+            github.com/ankitak28
+          </a>
         </li>
       </ul>
     </footer>
